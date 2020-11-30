@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fotografie on blöq</title>
+    <link>https://bl%C3%B6q.de/tags/fotografie/</link>
+    <description>Recent content in Fotografie on blöq</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <copyright>© 2020, David Sauerer - Joshua Sattler - Nico Müller</copyright>
+    <lastBuildDate>Thu, 26 Nov 2020 19:07:19 +0100</lastBuildDate>
+    
+	<atom:link href="https://bl%C3%B6q.de/tags/fotografie/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Weiteres Beispiel mit Fokus auf Bilder</title>
+      <link>https://bl%C3%B6q.de/posts/image-gallery/</link>
+      <pubDate>Thu, 26 Nov 2020 19:07:19 +0100</pubDate>
+      
+      <guid>https://bl%C3%B6q.de/posts/image-gallery/</guid>
+      <description>Est antrum favus erit   R pp milkyway 001 stacked
+      R pp milkyway 002 stacked cropped
+     </description>
+    </item>
+    
+  </channel>
+</rss>

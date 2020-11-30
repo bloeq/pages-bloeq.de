@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on blöq</title>
+    <link>https://bl%C3%B6q.de/tags/software/</link>
+    <description>Recent content in Software on blöq</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-DE</language>
+    <copyright>© 2020, David Sauerer - Joshua Sattler - Nico Müller</copyright>
+    <lastBuildDate>Thu, 26 Nov 2020 19:07:19 +0100</lastBuildDate>
+    
+	<atom:link href="https://bl%C3%B6q.de/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Weiteres Beispiel mit Fokus auf Quellcode</title>
+      <link>https://bl%C3%B6q.de/posts/weiteres-beispiel-mit-fokus-auf-quellcode/</link>
+      <pubDate>Thu, 26 Nov 2020 19:07:19 +0100</pubDate>
+      
+      <guid>https://bl%C3%B6q.de/posts/weiteres-beispiel-mit-fokus-auf-quellcode/</guid>
+      <description>Est antrum favus erit Fuerat dum ingemuit motibus func GetTitleFunc(style string) func(s string) string { switch strings.ToLower(style) { case &amp;#34;go&amp;#34;: return strings.Title case &amp;#34;chicago&amp;#34;: return transform.NewTitleConverter(transform.ChicagoStyle) default: return transform.NewTitleConverter(transform.APStyle) } Parentem urna caeruleos noster class Test: def __init__(self, x): return lamda x: x() Lumina qua tiliae et multi partem tegit Tu dextraque erat fortuna telum, tot molle nemorum, moderante supplex beati pervenit protinus intrat culmina? Pendebat Eurydices coniectos nubila erat Pelasgi tacitas; hic purpureis cervix precantem potius morique.</description>
+    </item>
+    
+  </channel>
+</rss>
