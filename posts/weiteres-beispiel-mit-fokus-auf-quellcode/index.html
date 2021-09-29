@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KMK091N8V1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KMK091N8V1');
+    </script>
+
+    <meta charset="UTF-8">
+    <title>blöq</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Dieser Artikel dient als Test um Quellcode in den Fokus zu bringen" />
+
+    <meta property="og:title" content="Weiteres Beispiel mit Fokus auf Quellcode" />
+    <meta property="og:description" content="Dieser Artikel dient als Test um Quellcode in den Fokus zu bringen" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bl%C3%B6q.de/posts/weiteres-beispiel-mit-fokus-auf-quellcode/" />
+    <meta itemprop="name" content="Weiteres Beispiel mit Fokus auf Quellcode">
+    <meta itemprop="description" content="Dieser Artikel dient als Test um Quellcode in den Fokus zu bringen">
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Weiteres Beispiel mit Fokus auf Quellcode"/>
+    <meta name="twitter:description" content="Dieser Artikel dient als Test um Quellcode in den Fokus zu bringen"/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+
+    
+    <link rel="stylesheet" href="https://bl%C3%B6q.de/scss/style.min.7d924ef9774ec20834568e42ea359840e26958ba74814c521b70b3cb5161c0bf.css" >
+</head>
+<body>
+    <header>
+    <div class="header header-frame">
+        <div>
+          
+            <h1 class="header__title">Weiteres Beispiel mit Fokus auf Quellcode</h1>
+          
+            
+                <div class="header__description">Dieser Artikel dient als Test um Quellcode in den Fokus zu bringen</div>
+            
+        </div>
+        <nav class="header-nav">
+            <ul class="header-nav-list header-nav-list--menu">
+                
+                
+            </ul>
+            <button class="header-nav-list__nav-btn">navigation</button>
+        </nav>
+        <button class="mb-header__menu-btn">
+            <span class="mb-header__menu-btn-line"></span>
+            <span class="mb-header__menu-btn-line"></span>
+            <span class="mb-header__menu-btn-line"></span>
+        </button>
+    </div>
+    <nav id="mobile-header-nav" class="mb-header-nav">
+  
+  
+  <button class="mb-header-nav__close-btn flex-center">
+    <svg
+            class="mb-header-nav__svg-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="32"
+            height="32"
+            >
+            <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+            <path d="M0 0h24v24H0z" fill="none" />
+        </svg>
+    </button>
+    
+    <div class="mb-header-nav__wrapper">
+        <div class="mb-header-nav__container">
+            <svg
+                width="240"
+                height="72"
+                viewBox="0 0 240 72"
+                class="mb-header-nav__title"
+                >
+                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
+                Tags
+                </text>
+            </svg>
+            <ul class="mb-header-nav-list">
+                
+                    
+                        
+                          <li class="mb-header-nav-list__item ">
+                        <a class="mb-header-nav-list__link" href="https://bl%C3%B6q.de/tags/software/"
+                                                            >Software</a
+                                                        >
+                    </li>
+                        
+                    
+                
+            </ul>
+        </div>
+        <div class="mb-header-nav__container">
+            <svg
+                width="240"
+                height="72"
+                viewBox="0 0 240 72"
+                class="mb-header-nav__title"
+                >
+                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
+                Menu
+                </text>
+            </svg>
+            <ul class="mb-header-nav-list">
+                
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</header>
+
+
+
+    <div id="content">
+<article class="post">
+  
+    <div class="post-content"><h1 id="est-antrum-favus-erit">Est antrum favus erit</h1>
+<h2 id="fuerat-dum-ingemuit-motibus">Fuerat dum ingemuit motibus</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-GO" data-lang="GO"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">GetTitleFunc</span>(<span style="color:#a6e22e">style</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">func</span>(<span style="color:#a6e22e">s</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">string</span> {
+  <span style="color:#66d9ef">switch</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">ToLower</span>(<span style="color:#a6e22e">style</span>) {
+  <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;go&#34;</span>:
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Title</span>
+  <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;chicago&#34;</span>:
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">transform</span>.<span style="color:#a6e22e">NewTitleConverter</span>(<span style="color:#a6e22e">transform</span>.<span style="color:#a6e22e">ChicagoStyle</span>)
+  <span style="color:#66d9ef">default</span>:
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">transform</span>.<span style="color:#a6e22e">NewTitleConverter</span>(<span style="color:#a6e22e">transform</span>.<span style="color:#a6e22e">APStyle</span>)
+  }</code></pre></div>
+<h2 id="parentem-urna-caeruleos-noster">Parentem urna caeruleos noster</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Test</span>:
+  <span style="color:#66d9ef">def</span> __init__(self, x):
+    <span style="color:#66d9ef">return</span> lamda x: x()</code></pre></div>
+<h2 id="lumina-qua-tiliae-et-multi-partem-tegit">Lumina qua tiliae et multi partem tegit</h2>
+<p>Tu dextraque erat fortuna telum, tot molle <em>nemorum</em>, moderante supplex beati
+<strong>pervenit protinus</strong> intrat <em>culmina</em>? Pendebat Eurydices coniectos nubila erat
+Pelasgi tacitas; hic purpureis cervix precantem potius <em>morique</em>. Est illa,
+quos. Tantum et suras aut letique Hercule sinus, quod, inexpugnabile male <a href="http://www.iunguntur.io/">fessa
+sensitque</a> ceperat, abundet. Nequiquam facti
+<em>quaeras</em>.</p>
+<ul>
+<li>Unda aures ensem funere fecissent lunae mutatas</li>
+<li>Aquae fide domum legebant si mihi Solis</li>
+<li>Et hac quater ambo est</li>
+<li>Undas per videntur alas illo tempora sub</li>
+</ul>
+<p>Cepit Cretaeas: coram anguis. Per <em>belli sumptaque argento</em>, haec vates digiti
+<strong>lumina</strong> sumo vertit iunctis pignora: deficit eque, ubi accessit talia. Et
+esse capioque <strong>pastor</strong> misere in pars. Aut nitentem altissima caecis, esse
+mentem crudelis, vires <a href="http://dedissent-nivea.net/continet.html">ignorat</a>,
+prohibere mihi Leonis auxilium atque scite popularis. Quae vestes deposuisse
+factas hoc protinus nec regionibus pectore Oriens.</p>
+</div>
+  
+</article>
+<button class="floating-button">
+    <a class="floating-button__link" href="https://bl%C3%B6q.de/">
+        <span>home</span>
+    </a>
+</button>
+
+
+    </div>
+    
+    <footer class="post-footer">
+    <div class="footer">
+        
+            <div>© 2020, David Sauerer - Joshua Sattler - Nico Müller</div>
+        
+        <div class="footer__socials">
+
+
+
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+
+    
+    
+      
+<script src="https://bl%C3%B6q.de/js/script.js"></script>
+
+    
+  </body>
+</html>
